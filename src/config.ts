@@ -1,0 +1,2 @@
+export const siteConfig = { domain: "neurobium.com", email: "work.kaantha@gmail.com", price: "$125,670,000" };
+export const contactHref = `mailto:${siteConfig.email}?subject=${encodeURIComponent(`Inquiry about ${siteConfig.domain}`)}&body=${encodeURIComponent(`Hello,\n\nI am interested in acquiring ${siteConfig.domain}. Please share more details about the transfer process and asking expectations.\n\nThank you,`)}`;
